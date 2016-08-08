@@ -1,4 +1,5 @@
 import React from 'react';
+import ContactsList from './contactsList';
 import {render} from 'react-dom';
 
 class App extends React.Component {
@@ -6,6 +7,7 @@ class App extends React.Component {
 		return (
 			<div>
 				<h1>Contacts List</h1>
+				<ContactsList />
 			</div>
 		)
 	}	
